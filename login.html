@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
   <title>Document</title>
 </head>
 <body class="wrapper">
   <div class="login">
-    <div class="login__title">
-      <p class="title__main">物品管理システム</p>
-      <p class="title__sub">HosLogi</p>
+    <div class="loginTitle">
+      <p class="loginTitle__subText">物品管理システム</p>
+      <p class="loginTitle__mainText"><i class="fas fa-box icon"></i>HosLogi</p>
     </div>
-    <div class="login__form">
-      <p></p>
+    <div class="loginForm">
+      <label class="loginForm__label" for="id">ユーザＩＤ</label>
+      <input class="loginForm__inputText" name="id" type="text" />
+      <label class="loginForm__label" for="password">パスワード</label>
+      <input class="loginForm__inputText" name="password" type="text" />
+      <input class="loginForm__submitButton" type="submit" value="ログイン">
     </div>
-    <div class="login__version">
-
-    </div>
+  </div>
+  <div class="version">
+    <p class="version__text">ver1.0.0</p>
   </div>
 </body>
 </html>
